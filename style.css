@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul: #FFFFFF;
+    --branco: #493dd0;
+    --cinza: #bab4ff;
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--azul);
+    font-family: 'K2D', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    color: #000000;
+}
+
+h2{
+    font-size: 3rem;
+    color: #493dd0;
+}
+
+h3{
+    color: #493dd0;
+    padding: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin-left: 24px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.md-48{
+    font-size: 48px;
+    color: var(--marrom);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--branco);
+    padding: 10px;
+    position: sticky; 
+    top: 0; 
+}
+
+nav{
+    color: black;
+    font-size: 1rem;
+    display: block;
+    position: relative;
+    z-index: 0;
+    width: auto;
+    padding: 0;
+    text-align: right;
+}
+
+.vozinha{
+    border-radius: 15px;
+    border: 5px;
+    box-shadow: 5px;
+}
+
+.title{
+    color: black;
+}
+
+.area_conteudo{
+    margin: 24px;
+}
+
+.card_conteudo img{
+    border-radius: 15px;
+    margin: 24px 16px 24px 0;
+    width: 50%;
+    height: 70%;
+}
+
+.card_conteudo{
+    border-radius: 15px;
+    padding: 24px;
+    text-align: center;
+}
+
+.card_servico_conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 5px;
+}
+
+.id{
+    font-size: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.area_rodape{
+    font-size: 1rem;
+    color: black;
+    background-color: var(--branco);
+    text-align: center;
+    padding: 30PX;
+}
+
+p{
+    font-size: 1.3rem;
+    color: black;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 20px;
+}
+
+#botao_menu{
+    color: black;
+}
+
+.oque{
+    text-align: center;
+}
+
+#botao_menu{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+}
+
+.card_1{
+    margin: 1% 20px;
+    padding: 25px 25px;
+    width: 350px;
+    background-color: #bab4ff;
+    box-shadow: 0 4px 8px #000;
+    display: inline-block;
+}
+.card_2{
+    margin: 1% 20px;
+    padding: 25px 25px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: var(--cinza-azulado-claro);
+    box-shadow: 0 4px 8px #000;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+header nav .logo img{
+    justify-content: space-between;
+    display: block;
+    
+}
